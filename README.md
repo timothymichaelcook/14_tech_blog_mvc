@@ -1,36 +1,39 @@
 # Tech Blog MVC
 
-Project Repo: [Github-repo](https://github.com/timothymichaelcook/12_Employee_Tracker)
+Project Repo: [Github-repo](https://github.com/timothymichaelcook/14_tech_blog_mvc)
 
 ## Description
 
-The focus of this project was to create an application interface (CMS) that allows a user to view and interact with information stored in the employees_DB. This challenge allows a company to manage an employee database through a command line interface. This database contains three tables, roles, departments, and employees with different fields depending on the table.
+The focus of this project was to create an web application serving as a blog that allows a user to view and interact with elements such as a login page, signup page and blog post page. This challenge allows users to create their own blog posts, add and edit blog posts and creat a userId and password. The dashboard will show all the created posts by a user.
 
 ## User Story
 
 ```
-- AS A business owner
-- I WANT to be able to view and manage the departments, roles, and employees in my company
-- SO THAT I can organize and plan my business
+- AS A developer who writes about tech
+- I WANT a CMS-style blog site
+- SO THAT I can publish articles, blog posts, and my thoughts and opinions
 ```
 
 ## Installation 
 
 Packages:
-Inquirer
+Dotenv
 MySQL
-Console Table
+Express
+Handlebars
+Sequelize
+Bcrypt
 
 Commands:
 mysql -u root -p
 source schema.sql
-source seeds.sql
 npm i
-node index.js
+node seeds
+node server.js
 
 ## Usage
 
-Users need to import the following npm packages: inquirer, mysql, and console table. Run npm i to install these packages. Users need to enter the database and source the schema and seeds files. Once seeded, the user needs to be in the root directory of the project and run node index.js to start the application. There are a different choices that let you read, create and update data in the database. Some of the options let you view the data in the database, other options let you update or create elements in the database and last option 'Quit' exits the terminal application.
+Users need to import the following npm packages: express, mysql, bcrypt, handlebars and dotenv. Run npm i to install these packages. Users need to enter the database and source the schema file. Once seeded, the user needs to be in the root directory of the project and run node seeds as well as node server.js to start the application. At local host url port 3001, users will see the homepage where blog posts are.In order to create a blog post, user will need to user the sign up button to create an account and log into the account. Users will then have the option to create a blog post as well as edit older blog posts.
 
 ## Credits
 
