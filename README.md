@@ -1,6 +1,7 @@
 # Tech Blog MVC
 
 Project Repo: [Github-repo](https://github.com/timothymichaelcook/14_tech_blog_mvc)
+Deployed Link: [Heroku](https://tech-blog-mvc-timothycook.herokuapp.com/)
 
 ## Description
 
