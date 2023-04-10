@@ -4,7 +4,7 @@ Project Repo: [Github-repo](https://github.com/timothymichaelcook/14_tech_blog_m
 
 ## Description
 
-The focus of this project was to create an web application serving as a blog that allows a user to view and interact with elements such as a login page, signup page and blog post page. This challenge allows users to create their own blog posts, add and edit blog posts and creat a userId and password. The dashboard will show all the created posts by a user.
+The focus of this project was to create an web application serving as a blog that allows a user to view and interact with elements such as a login page, signup page and blog post page. This challenge allows users to create their own blog posts,  edit, and comment on blog posts via the dashboard view. The home view will show all the created posts by a user.
 
 ## User Story
 
@@ -45,7 +45,10 @@ MIT License
 
 ## Screenshots REDO
 
-![Project Video](./assets/video_1.gif)
+![Project Screenshot](./assets/screenshot_1.png)
+![Project Screenshot](./assets/screenshot_2.png)
+![Project Screenshot](./assets/screenshot_3.png)
+![Project Screenshot](./assets/screenshot_4.png)
 
 ## Contact
 
